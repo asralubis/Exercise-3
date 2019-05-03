@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/background.png);
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+#myInput {
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 240px 3px;
+    background-size: 20px;
+    font-size: 20px;
+    width: 20%;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+th {
+    text-align: center;
+    cursor: pointer;
+}
+
+table {
+    background-color: aliceblue;
+    font-family: 'Calibri';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-collapse: collapse;
+    font-size: 18px;
+}

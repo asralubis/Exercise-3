@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise-3</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+
+<body>
+    <h1>Planets List Star Wars API</h1>
+    <div>
+        <input type="text" id="myInput" onkeyup="search()" placeholder="Search">
+    </div>
+    <table id="myTable" border="1">
+        <thead>
+            <tr>
+                <th onclick="sort(0)">Name</th>
+                <th onclick="sort(1)">Rotation Period</th>
+                <th onclick="sort(2)">Orbital Period</th>
+                <th onclick="sort(3)">Diameter</th>
+                <th onclick="sort(4)">Climate</th>
+                <th onclick="sort(5)">Gravity</th>
+                <th onclick="sort(6)">Terrain</th>
+                <th onclick="sort(7)">Surface Water</th>
+                <th onclick="sort(8)">Population</th>
+            </tr>
+        </thead>
+        <tbody id="table"></tbody>
+    </table>
+</body>
+<script src="src/script/swapi.js"></script>
+
+</html>
